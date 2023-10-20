@@ -38,8 +38,8 @@ const Controls = () => {
         Select Standards
         </Dropdown.Toggle>
         <Dropdown.Menu className='drop-listitems'>
-        <Dropdown.Item onClick={handleClick}  className='list-item'>Standard Based</Dropdown.Item>
-        <Dropdown.Item onClick={handleClicker} className='list-item'>Domain Based</Dropdown.Item>
+        <Dropdown.Item onClick={handleClick} key={'list-item-1'} className='list-item'>Standard Based</Dropdown.Item>
+        <Dropdown.Item onClick={handleClicker} key ={'list-item-2'} className='list-item'>Domain Based</Dropdown.Item>
         <Dropdown.Item className='list-item'>Add New Standard..!</Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
