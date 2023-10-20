@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
-import './index.css';
+import './login.css';
 import { useNavigate } from 'react-router';
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 function Login() {

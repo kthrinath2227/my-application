@@ -1,0 +1,51 @@
+
+.background-container {
+    width: 100%;
+    margin-top:15px;
+    padding:10px;
+}
+.input-1 {
+    width:15vw;
+    height:3.5vh;
+    padding:5px;
+    margin: 5px;
+    border-radius:10px ;
+    border-width: 1px;
+}
+.btn-1 {
+    width: 100%;
+    font-size: 1vw;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(109, 117, 121);
+}
+.form-container {
+    margin: 20px;
+    padding:10px
+}
+.form-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.refno {
+    width:50px;
+    height:4vh;
+}
+.input-text {
+    width:17vw;
+    height:4vh;
+}
+label {
+    font-size:0.7vw;
+    font-weight: 500;
+}
+.rational-toggle{
+    width:17vw ;
+    border-radius: 0px;
+    background-color: aliceblue;
+    color:black;
+    border-width: 1px;
+    height:4vh;
+}
